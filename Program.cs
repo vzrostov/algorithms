@@ -3,10 +3,11 @@ using Algorithms;
 
 Console.WriteLine("Hello, World!");
 
-SortAlgorithm.Run();
-RecurseFactorial.Run();
-Recurse2PoweredN.Run();
-GreedyAlgorithm.Run();
-SplitStringsOnMaximumDistinctSubs.Run();
-Dijkstra.Run();
-LinkedList.Run();
+//SortAlgorithm.Run();
+//RecurseFactorial.Run();
+//Recurse2PoweredN.Run();
+//GreedyAlgorithm.Run();
+//SplitStringsOnMaximumDistinctSubs.Run();
+//Dijkstra.Run();
+//LinkedList.Run();
+TreeAvl.Run();
