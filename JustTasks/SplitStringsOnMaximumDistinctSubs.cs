@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Algorithms
 {
+    /*
+    Number $n$ is given. 
+    Break the decimal representation of the number $n$ into as many distinct numbers as possible.
+    Numbers with leading zeros are not allowed.
+    */
     internal class SplitStringsOnMaximumDistinctSubs
     {
         internal static void Run()

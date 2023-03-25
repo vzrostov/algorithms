@@ -10,4 +10,5 @@ Console.WriteLine("Hello, World!");
 //SplitStringsOnMaximumDistinctSubs.Run();
 //Dijkstra.Run();
 //LinkedList.Run();
-TreeAvl.Run();
+//TreeAvl.Run();
+StepsToMakeAllEqual.Run();
