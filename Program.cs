@@ -11,4 +11,5 @@ Console.WriteLine("Hello, World!");
 //Dijkstra.Run();
 //LinkedList.Run();
 //TreeAvl.Run();
-StepsToMakeAllEqual.Run();
+//StepsToMakeAllEqual.Run();
+Anagrams.Run();
