@@ -12,4 +12,5 @@ Console.WriteLine("Hello, World!");
 //LinkedList.Run();
 //TreeAvl.Run();
 //StepsToMakeAllEqual.Run();
-Anagrams.Run();
+//Anagrams.Run();
+SumOfDigits.Run();
