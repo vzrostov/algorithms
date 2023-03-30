@@ -12,9 +12,9 @@ namespace Algorithms
         internal static void Run()
         {
             // make all string variants from character set
-            MakeAllStrings("");
-            MakeAllStrings("a");
-            MakeAllStrings("ab");
+            //MakeAllStrings("");
+            //MakeAllStrings("a");
+            //MakeAllStrings("ab");
             MakeAllStrings("abdc");
             //MakeAllStrings("ab cdc ey dfxcskq");
         }
@@ -29,6 +29,7 @@ namespace Algorithms
         private static void MakeAllStringsRecurse(List<char> str, List<string> res, string acc = "")
         {
             if (str.Count == 0)
+            //if(acc.Length == 2) // only 2char strings
             {
                 res.Add(acc);
                 return;

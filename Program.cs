@@ -4,7 +4,7 @@ using Algorithms;
 Console.WriteLine("Hello, Algorithms!");
 
 //SortAlgorithm.Run();
-//RecurseFactorial.Run();
+RecurseFactorial.Run();
 //Recurse2PoweredN.Run();
 //GreedyAlgorithm.Run();
 //SplitStringsOnMaximumDistinctSubs.Run();
@@ -16,4 +16,5 @@ Console.WriteLine("Hello, Algorithms!");
 //SumOfDigits.Run();
 //Knapsack.Run();
 //PrintAllBinaries.Run();
-MergeUsersByEmail.Run();
+//MergeUsersByEmail.Run();
+Sets.Run();
