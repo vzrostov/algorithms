@@ -79,7 +79,7 @@ namespace Algorithms
             Node node;
             while (stack.TryPop(out node))
             {
-                foreach (var n in node.Nodes)
+                foreach (var n in node.Nodes) // go through all paths of node
                 {
                     if (n.Cost + node.MinCost < n.Node.MinCost)
                     {

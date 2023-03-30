@@ -30,8 +30,8 @@ namespace Algorithms
             var res = new List<string>();
             MakeAllBinariesRecurse(n, res);
             Console.WriteLine("For " + n + ", count = " + res.Count);
-            //foreach (var item in res)
-            //    Console.WriteLine(" " + item);
+            foreach (var item in res)
+                Console.WriteLine(" " + item);
         }
 
         private static void MakeAllBinariesWhereLevelNotZero(int n, int level)

@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Algorithms;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, Algorithms!");
 
 //SortAlgorithm.Run();
 //RecurseFactorial.Run();
@@ -13,4 +13,7 @@ Console.WriteLine("Hello, World!");
 //TreeAvl.Run();
 //StepsToMakeAllEqual.Run();
 //Anagrams.Run();
-SumOfDigits.Run();
+//SumOfDigits.Run();
+//Knapsack.Run();
+//PrintAllBinaries.Run();
+MergeUsersByEmail.Run();
