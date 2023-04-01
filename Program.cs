@@ -3,8 +3,9 @@ using Algorithms;
 
 Console.WriteLine("Hello, Algorithms!");
 
+
 //SortAlgorithm.Run();
-RecurseFactorial.Run();
+//RecurseFactorial.Run();
 //Recurse2PoweredN.Run();
 //GreedyAlgorithm.Run();
 //SplitStringsOnMaximumDistinctSubs.Run();
