@@ -18,4 +18,5 @@ Console.WriteLine("Hello, Algorithms!");
 //Knapsack.Run();
 //PrintAllBinaries.Run();
 //MergeUsersByEmail.Run();
-Sets.Run();
+//Sets.Run();
+BiasOfPaumentsByPeriod.Run();
