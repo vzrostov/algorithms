@@ -19,4 +19,5 @@ Console.WriteLine("Hello, Algorithms!");
 //PrintAllBinaries.Run();
 //MergeUsersByEmail.Run();
 //Sets.Run();
-BiasOfPaumentsByPeriod.Run();
+//BiasOfPaumentsByPeriod.Run();
+SquareInGrid.Run();
