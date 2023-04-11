@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algorithms
 {
-    internal class BiasOfPaumentsByPeriod
+    internal class BiasOfPaymentsByPeriod
     {
         class Payment
         {

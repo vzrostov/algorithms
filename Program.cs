@@ -5,7 +5,7 @@ Console.WriteLine("Hello, Algorithms!");
 
 
 //SortAlgorithm.Run();
-//RecurseFactorial.Run();
+//RecurseFactorialAndNot.Run();
 //Recurse2PoweredN.Run();
 //GreedyAlgorithm.Run();
 //SplitStringsOnMaximumDistinctSubs.Run();
@@ -19,5 +19,8 @@ Console.WriteLine("Hello, Algorithms!");
 //PrintAllBinaries.Run();
 //MergeUsersByEmail.Run();
 //Sets.Run();
-//BiasOfPaumentsByPeriod.Run();
-SquareInGrid.Run();
+//BiasOfPaymentsByPeriod.Run();
+//SquareInGrid.Run();
+//Scrabble.Run();
+StackVsHeap.Run();
+FindSubstringWithPermutationOfLetters.Run();

@@ -127,10 +127,10 @@ namespace Algorithms
         private static int bubblesort(int[] arr)
         {
             int count = 0;
-            for (int i = arr.Length - 1; i > 0; i--) // first is always not come to end, come to end -1
+            for (int i = arr.Length - 1; i > 0; i--) // first always does not come to begin, it comes to begin+1
             {
                 bool completed = true;
-                for (int ii = arr.Length - 1; ii >= arr.Length - i; ii--) // second - come to 
+                for (int ii = arr.Length - 1; ii >= arr.Length - i; ii--) // second - comes to begin
                 {
                     count++;
                     if (arr[ii - 1] > arr[ii])

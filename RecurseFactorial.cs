@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Algorithms
 {
-    internal class RecurseFactorial
+    internal class RecurseFactorialAndNot
     {
         internal static void Run()
         {
@@ -44,17 +44,17 @@ namespace Algorithms
         private static void MakeAllStringsByOrder(string str)
         {
             var res = new List<string>();
-            MakeAllStringsByOrderRecurse(str, res);
+            MakeAllStringsByOrder(str, res);
             Console.WriteLine("For " + str + ", count = " + res.Count);
         }
 
-        private static void MakeAllStringsByOrderRecurse(string str, List<string> res, string acc = "")
+        private static void MakeAllStringsByOrder(string str, List<string> res)
         {
             for (int i=0; i < str.Length; i++)
             {
                 for (int ii = 0; ii < str.Length - i; ii++)
                 {
-                    var ss = str.Substring(i, ii + 1);
+                    var ss = str.Substring(i, ii + 1); // refactor it to Span using
                     res.Add(new string(ss));
                 }
             }
