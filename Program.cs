@@ -23,4 +23,5 @@ Console.WriteLine("Hello, Algorithms!");
 //SquareInGrid.Run();
 //Scrabble.Run();
 StackVsHeap.Run();
-FindSubstringWithPermutationOfLetters.Run();
+//FindSubstringWithPermutationOfLetters.Run();
+IntListToString.Run();
